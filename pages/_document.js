@@ -4,7 +4,8 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Google AdSense */}
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous" />
+        <meta name="google-adsense-account" content="ca-pub-5906025502715825" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5906025502715825" crossOrigin="anonymous" />
 
         {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSEVLTNRVR" />
@@ -29,16 +30,4 @@ export default function Document() {
               url: 'https://blockchainaitechnologies.com',
               logo: 'https://blockchainaitechnologies.com/images/logo.png',
               sameAs: [
-                'https://twitter.com/BlockchainAITech',
-              ],
-            }),
-          }}
-        />
-      </Head>
-      <body>
-        <Main />
-        <NextScript />
-      </body>
-    </Html>
-  )
-}
+                'https://twitter.com/BlockchainAITech'
