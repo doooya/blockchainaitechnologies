@@ -1,5 +1,5 @@
 export default function ComparisonTable({ products, columns }) {
-  const defaultCols = columns || ['Product', 'Price', 'Best For', 'Rating', 'Our Pick']
+  const defaultCols = columns || ['Product', 'Best For', 'Rating', 'Our Pick']
   const hasData = products && products.length > 0
 
   return (
@@ -19,7 +19,6 @@ export default function ComparisonTable({ products, columns }) {
                 {p.bestPick && <span className="best-pick-badge mr-2">⭐</span>}
                 {p.name}
               </td>
-              <td>{p.price || '—'}</td>
               <td className="text-gray-600">{p.idealFor || '—'}</td>
               <td>
                 <div className="flex items-center gap-1">
@@ -28,11 +27,12 @@ export default function ComparisonTable({ products, columns }) {
                 </div>
               </td>
               <td>
-                <a
+                
                   href={p.affiliateLink || '#'}
                   target="_blank"
                   rel="noopener noreferrer sponsored"
-                  className="inline-flex items-center gap-1 px-3 py-1.5 bg-primary-600 text-white text-xs font-semibold rounded-lg hover:bg-primary-700 transition-colors"
+                  style={{backgroundColor: '#4f46e5', color: '#ffffff'}}
+                  className="inline-flex items-center gap-1 px-3 py-1.5 text-xs font-semibold rounded-lg hover:opacity-90 transition-opacity"
                 >
                   View Deal →
                 </a>
@@ -40,7 +40,7 @@ export default function ComparisonTable({ products, columns }) {
             </tr>
           )) : (
             <tr>
-              <td colSpan={5} className="text-center text-gray-400 py-8">No products listed yet.</td>
+              <td colSpan={4} className="text-center text-gray-400 py-8">No products listed yet.</td>
             </tr>
           )}
         </tbody>

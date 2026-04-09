@@ -96,7 +96,8 @@ export default function ProductCard({ product, rank }) {
         href={affiliateLink || '#'}
         target="_blank"
         rel="noopener noreferrer sponsored"
-        className="affiliate-btn"
+        style={{backgroundColor: '#4f46e5', color: '#ffffff'}}
+className="flex items-center justify-center gap-2 w-full px-5 py-4 font-bold text-base rounded-lg hover:opacity-90 transition-opacity mt-auto"
       >
         🛒 Check Price on Amazon
       </a>
