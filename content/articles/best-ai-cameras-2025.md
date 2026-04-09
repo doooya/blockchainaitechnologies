@@ -51,7 +51,6 @@ The 4K 60fps video with full-frame readout and Sony's AI Active noise reduction 
   name: "Sony Alpha A7 IV",
   tagline: "Best hybrid mirrorless camera with industry-leading AI autofocus",
   rating: 4.8,
-  price: "$2,499 (body only)",
   features: [
     "33MP BSI full-frame sensor",
     "AI subject detection: human, animal, insect, vehicle",
@@ -80,7 +79,6 @@ The 40fps electronic shutter with full AI tracking makes the R6 II a genuine spo
   name: "Canon EOS R6 Mark II",
   tagline: "Best AF tracking for sports and wildlife with 40fps burst",
   rating: 4.7,
-  price: "$2,499 (body only)",
   features: [
     "Dual Pixel CMOS AF II with AI subject detection",
     "40fps electronic shutter with tracking",
@@ -106,7 +104,6 @@ The Osmo Pocket 3 redefines what a pocket camera can do. Its AI face tracking ke
   name: "DJI Osmo Pocket 3",
   tagline: "AI-tracking pocket camera with gimbal stabilization and 1-inch sensor",
   rating: 4.6,
-  price: "$519",
   features: [
     "1-inch CMOS sensor for superior low-light performance",
     "3-axis gimbal mechanical stabilization",
@@ -134,7 +131,6 @@ For dedicated action sports content, the Hero 12 remains the best-in-class solut
   name: "GoPro Hero 12 Black",
   tagline: "Best action camera with AI-powered stabilization and horizon lock",
   rating: 4.4,
-  price: "$399",
   features: [
     "HyperSmooth 6.0 AI stabilization",
     "Horizon Lock to 360° rotation",
@@ -161,7 +157,7 @@ Most AI autofocus features (subject tracking, eye detection) work independently 
 For run-and-gun video and documentary-style shooting, yes significantly. For fully controlled narrative video with predictable subject positions, experienced camera operators can still match or exceed AI tracking. For most content creators, AI tracking is the better default.
 
 **What's the best AI camera under $1,000?**
-The Sony ZV-E10 II ($799) inherits Sony's AI tracking in a compact body. For video-focused work under $1,000, the GoPro Hero 12 + DJI Mini 4 Pro drone combination gives more creative flexibility than a single mirrorless camera.
+The Sony ZV-E10 II inherits Sony's AI tracking in a compact body. For video-focused work under $1,000, the GoPro Hero 12 + DJI Mini 4 Pro drone combination gives more creative flexibility than a single mirrorless camera.
 
 **Do more megapixels improve AI autofocus?**
 Resolution and autofocus are separate systems. The Canon R6 II at 20MP has more reliable tracking than many higher-resolution cameras. Autofocus performance depends on the on-chip phase detection pixel density and the AI model, not the total resolution.
