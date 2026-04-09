@@ -5,14 +5,14 @@ export default function Document() {
     <Html lang="en">
       <Head>
         {/* Google Analytics – replace GA_ID */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=GA_MEASUREMENT_ID" />
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSEVLTNRVR" />
         <script
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'GA_MEASUREMENT_ID');
+              gtag('config', 'G-WSEVLTNRVR');
             `,
           }}
         />
