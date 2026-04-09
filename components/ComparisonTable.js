@@ -19,7 +19,7 @@ export default function ComparisonTable({ products, columns }) {
                 {p.bestPick && <span className="best-pick-badge mr-2">⭐</span>}
                 {p.name}
               </td>
-              <td className="text-gray-600">{p.idealFor || '—'}</td>
+              <td className="text-gray-600">{p.idealFor || ''}</td>
               <td>
                 <div className="flex items-center gap-1">
                   <span className="font-bold text-gray-900">{p.rating}</span>
@@ -27,13 +27,7 @@ export default function ComparisonTable({ products, columns }) {
                 </div>
               </td>
               <td>
-                
-                  href={p.affiliateLink || '#'}
-                  target="_blank"
-                  rel="noopener noreferrer sponsored"
-                  style={{backgroundColor: '#4f46e5', color: '#ffffff'}}
-                  className="inline-flex items-center gap-1 px-3 py-1.5 text-xs font-semibold rounded-lg hover:opacity-90 transition-opacity"
-                >
+                <a href={p.affiliateLink || '#'} target="_blank" rel="noopener noreferrer sponsored" style={{backgroundColor: '#4f46e5', color: '#ffffff', display: 'inline-flex', padding: '6px 12px', borderRadius: '8px', fontSize: '12px', fontWeight: '600', textDecoration: 'none'}}>
                   View Deal
                 </a>
               </td>
