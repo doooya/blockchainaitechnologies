@@ -42,7 +42,7 @@
     @apply card p-5 flex flex-col gap-3;
   }
   .affiliate-btn {
-    @apply btn-primary w-full justify-center text-sm mt-auto;
+    @apply flex items-center justify-center gap-2 w-full px-5 py-4 bg-primary-600 text-white font-bold text-base rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-md hover:shadow-lg mt-auto text-center;
   }
   .comparison-table {
     @apply w-full border-collapse text-sm;
