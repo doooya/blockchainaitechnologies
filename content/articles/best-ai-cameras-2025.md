@@ -26,11 +26,11 @@ We focused our evaluation on these AI systems:
 ## Quick Comparison
 
 <ComparisonTable products={[
-  { name: "Sony A7 IV", price: "$2,499", idealFor: "Hybrid photo/video professionals", rating: 4.8, bestPick: true, affiliateLink: "[Insert Amazon Affiliate Link Here]" },
-  { name: "Canon EOS R6 Mark II", price: "$2,499", idealFor: "Sports and wildlife tracking", rating: 4.7, affiliateLink: "[Insert Amazon Affiliate Link Here]" },
-  { name: "Fujifilm X-T5", price: "$1,699", idealFor: "Landscape and portrait photography", rating: 4.5, affiliateLink: "[Insert Amazon Affiliate Link Here]" },
-  { name: "GoPro Hero 12 Black", price: "$399", idealFor: "Action and adventure footage", rating: 4.4, affiliateLink: "[Insert Amazon Affiliate Link Here]" },
-  { name: "DJI Osmo Pocket 3", price: "$519", idealFor: "Vlogging and travel content", rating: 4.6, affiliateLink: "[Insert Amazon Affiliate Link Here]" }
+  { name: "Sony A7 IV", idealFor: "Hybrid photo/video professionals", rating: 4.8, bestPick: true, affiliateLink: "https://amzn.to/4mmlhCS" },
+  { name: "Canon EOS R6 Mark II", idealFor: "Sports and wildlife tracking", rating: 4.7, affiliateLink: "https://amzn.to/41XfiLe" },
+  { name: "Fujifilm X-T5", idealFor: "Landscape and portrait photography", rating: 4.5, affiliateLink: "https://amzn.to/41jkA3A" },
+  { name: "GoPro Hero 12 Black", idealFor: "Action and adventure footage", rating: 4.4, affiliateLink: "https://amzn.to/4cyEptV" },
+  { name: "DJI Osmo Pocket 3", idealFor: "Vlogging and travel content", rating: 4.6, affiliateLink: "https://amzn.to/3Oe1EQD" }
 ]} />
 
 ---
@@ -64,7 +64,7 @@ The 4K 60fps video with full-frame readout and Sony's AI Active noise reduction 
   cons: ["Expensive body-only price", "Menu system can be confusing", "4K 60fps has slight crop", "Rolling shutter in some video modes"],
   idealFor: "Professional photographers and content creators who need reliable autofocus for portraits, events, sports, and video — especially with fast or unpredictable subjects",
   whyItStands: "Sony's AI tracking is the industry benchmark — when your subject's eye is in frame, this camera will find it and hold it",
-  affiliateLink: "[Insert Amazon Affiliate Link Here]",
+  affiliateLink: "https://amzn.to/4mmlhCS",
   bestPick: true
 }} rank={1} />
 
@@ -93,7 +93,7 @@ The 40fps electronic shutter with full AI tracking makes the R6 II a genuine spo
   cons: ["20MP sensor (lower resolution than Sony A7 IV)", "Gets warm with extended 4K recording", "Rolling shutter visible in some 4K modes"],
   idealFor: "Sports photographers, wildlife shooters, and event videographers who need maximum burst speed with intelligent tracking",
   whyItStands: "40fps continuous shooting with AI subject tracking brings sports camera performance to an under-$3K mirrorless body",
-  affiliateLink: "[Insert Amazon Affiliate Link Here]"
+  affiliateLink: "https://amzn.to/41XfiLe"
 }} rank={2} />
 
 ---
@@ -119,7 +119,7 @@ The Osmo Pocket 3 redefines what a pocket camera can do. Its AI face tracking ke
   cons: ["Limited manual control vs. traditional cameras", "Proprietary charging", "Fixed lens — no zoom option"],
   idealFor: "Solo content creators, vloggers, and travelers who want high-quality stabilized video without the bulk of a mirrorless + gimbal setup",
   whyItStands: "Physical AI tracking with a 1-inch sensor in a pocketable form factor — no other device comes close for this specific use case",
-  affiliateLink: "[Insert Amazon Affiliate Link Here]"
+  affiliateLink: "https://amzn.to/3Oe1EQD"
 }} rank={3} />
 
 ---
@@ -147,7 +147,7 @@ For dedicated action sports content, the Hero 12 remains the best-in-class solut
   cons: ["Battery life (around 90 minutes) is limiting", "4K 120fps crops to a smaller sensor area", "GoPro subscription for cloud backup is expensive"],
   idealFor: "Extreme sports athletes, adventure travelers, and outdoor content creators who need durable, stabilized footage in harsh conditions",
   whyItStands: "No action camera's stabilization comes close to HyperSmooth 6.0 — the AI compensation for sudden movements is what separates GoPro footage from competitors",
-  affiliateLink: "[Insert Amazon Affiliate Link Here]"
+  affiliateLink: "ttps://amzn.to/4cyEptV"
 }} rank={4} />
 
 ---
