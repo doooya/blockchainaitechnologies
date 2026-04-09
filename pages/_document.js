@@ -1,10 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-
 export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        {/* Google Analytics – replace GA_ID */}
+        {/* Google AdSense */}
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXXXXXX" crossOrigin="anonymous" />
+
+        {/* Google Analytics */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-WSEVLTNRVR" />
         <script
           dangerouslySetInnerHTML={{
