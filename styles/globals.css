@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Lexend:wght@400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply text-gray-800 bg-white antialiased;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-5 py-3 bg-primary-600 text-white font-semibold rounded-lg hover:bg-primary-700 transition-colors duration-200 shadow-md hover:shadow-lg;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 px-5 py-3 bg-white text-primary-600 font-semibold rounded-lg border-2 border-primary-600 hover:bg-primary-50 transition-colors duration-200;
+  }
+  .card {
+    @apply bg-white rounded-xl shadow-sm border border-gray-100 hover:shadow-md transition-shadow duration-200;
+  }
+  .badge {
+    @apply inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium;
+  }
+  .badge-informational {
+    @apply badge bg-blue-100 text-blue-800;
+  }
+  .badge-commercial {
+    @apply badge bg-green-100 text-green-800;
+  }
+  .badge-transactional {
+    @apply badge bg-orange-100 text-orange-800;
+  }
+  .product-card {
+    @apply card p-5 flex flex-col gap-3;
+  }
+  .affiliate-btn {
+    @apply btn-primary w-full justify-center text-sm mt-auto;
+  }
+  .comparison-table {
+    @apply w-full border-collapse text-sm;
+  }
+  .comparison-table th {
+    @apply bg-primary-600 text-white px-4 py-3 text-left font-semibold;
+  }
+  .comparison-table td {
+    @apply px-4 py-3 border-b border-gray-100;
+  }
+  .comparison-table tr:nth-child(even) td {
+    @apply bg-gray-50;
+  }
+  .best-pick-badge {
+    @apply inline-flex items-center gap-1 px-3 py-1 bg-accent-500 text-white text-xs font-bold rounded-full;
+  }
+  .toc-link {
+    @apply block text-gray-600 hover:text-primary-600 hover:pl-1 transition-all duration-150 text-sm py-1 border-l-2 border-transparent hover:border-primary-400 pl-3;
+  }
+  .faq-item {
+    @apply border border-gray-200 rounded-lg overflow-hidden;
+  }
+  .faq-question {
+    @apply w-full text-left px-5 py-4 font-semibold text-gray-800 bg-gray-50 hover:bg-gray-100 transition-colors duration-150 flex items-center justify-between;
+  }
+  .faq-answer {
+    @apply px-5 py-4 text-gray-600 leading-relaxed;
+  }
+  .pros-cons-grid {
+    @apply grid grid-cols-1 sm:grid-cols-2 gap-4 my-6;
+  }
+  .pros-box {
+    @apply bg-green-50 border border-green-200 rounded-lg p-4;
+  }
+  .cons-box {
+    @apply bg-red-50 border border-red-200 rounded-lg p-4;
+  }
+  .hero-gradient {
+    background: linear-gradient(135deg, #4f46e5 0%, #0f172a 60%, #1e293b 100%);
+  }
+  .section-heading {
+    @apply text-3xl font-heading font-bold text-gray-900 mb-2;
+  }
+  .section-subheading {
+    @apply text-lg text-gray-500 mb-8;
+  }
+}
+
+/* Prose overrides */
+.prose a {
+  @apply text-primary-600 hover:text-primary-700 no-underline border-b border-primary-300 hover:border-primary-500;
+}
+.prose img {
+  @apply rounded-xl shadow-md;
+}
+.prose blockquote {
+  @apply border-l-4 border-primary-500 bg-primary-50 py-1;
+}
+.prose h2 {
+  @apply scroll-mt-24;
+}
+.prose h3 {
+  @apply scroll-mt-24;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #f1f5f9; }
+::-webkit-scrollbar-thumb { background: #94a3b8; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #6366f1; }

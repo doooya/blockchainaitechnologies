@@ -1,0 +1,21 @@
+{
+  "name": "BlockchainAI Technologies",
+  "short_name": "BlockchainAI",
+  "description": "Expert reviews on AI tools, blockchain hardware, and emerging technology",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
